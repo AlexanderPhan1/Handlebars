@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-var burger = require('../appear/hambur.js');
+var burger = require('./hambur.js');
 
 router.get('/', function(req,res) {
 	res.redirect('/burgers')
