@@ -18,7 +18,7 @@ app.engine('handlebars', exphbs({
 }));
 app.set('view engine', 'handlebars');
 
-var routes = require('./control_hambur/hambur-con.js');
+var routes = require('./controllers/burgers_controller.js');
 app.use('/', routes);
 
 
